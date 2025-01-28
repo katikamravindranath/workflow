@@ -3,7 +3,7 @@
 		"474083a9-c020-466d-9c9c-35d71848ebf4": {
 			"classDefinition": "com.sap.bpm.wfs.Model",
 			"id": "com.sap.workflow.process.employeehire.employee_hire",
-			"subject": "Employee_Hire_process",
+			"subject": "Employee_Hire_process12",
 			"customAttributes": [],
 			"name": "Employee_Hire",
 			"documentation": "Employee Hiring PRocess",
