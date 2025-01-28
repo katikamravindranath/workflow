@@ -1,0 +1,65 @@
+<mvc:View controllerName="com.sap.workflow.process.employeehire.workflowuimodule.controller.main" 
+xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" 
+xmlns:f="sap.ui.layout.form" xmlns:core="sap.ui.core">
+    <App id="app">
+        <pages>
+            <Page showHeader="false" showFooter="false">
+                <ObjectHeader
+		title="{task>/TaskTitle}"
+		number="{task>/Priority}"
+		numberUnit="{task>/PriorityText}"
+		class="sapUiResponsivePadding--header" >
+		<statuses>
+			<ObjectStatus
+				text="{task>/Status}"
+				 />
+		</statuses>
+		<ObjectAttribute text="{task>/CreatedBy}" />
+		<ObjectAttribute text="{task>/CreatedOn}" />
+	</ObjectHeader>
+                <content>
+                    <VBox class="sapUiSmallMargin">
+		<f:SimpleForm id="SimpleFormChange354"
+			editable="true"
+			layout="ResponsiveGridLayout"
+			title="Address"
+			labelSpanXL="3"
+			labelSpanL="3"
+			labelSpanM="3"
+			labelSpanS="12"
+			adjustLabelSpan="false"
+			emptySpanXL="4"
+			emptySpanL="4"
+			emptySpanM="4"
+			emptySpanS="0"
+			columnsXL="1"
+			columnsL="1"
+			columnsM="1"
+			singleContainerFullSize="false" >
+			<f:content>
+				<Label text="Name" />
+				<Input value="{context>/name}" />
+				<Label text="Work Experience" />
+				<Input value="{context>/work}" />
+				<Label text="Inventory" />
+				<Input value="{context>/nventory}" />
+				<Label text="Price" />
+				<Input value="{context>/price}" />
+				<MultiComboBox
+			selectionChange="handleSelectionChange"
+			selectionFinish="handleSelectionFinish"
+			width="350px">
+			<core:Item key="ABAP" text="ABAP"/>
+			<core:Item key="S/4 Hana" text="S/4 Hana"/>
+			<core:Item key="BTP" text="BTP"/>
+			<core:Item key="ABAP on cloud" text="ABAP Cloud"/>
+			</MultiComboBox>
+			</f:content>
+		</f:SimpleForm>
+	</VBox>
+                </content>
+
+            </Page>
+        </pages>
+    </App>
+</mvc:View>
