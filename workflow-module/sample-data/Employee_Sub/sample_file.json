@@ -1,0 +1,34 @@
+{
+   
+  "productitems": [
+    {
+    
+    "product": "Hamlet (Paperback)",
+    "inStock": "ff",
+    "inventory": 26700,
+    "price": 7.49,
+    "publishingDate": "1600-04-23T18:25:43.511Z",
+    "author": { "name": "William Shakespeare" },
+    "publishers": [ "Simon & Brown", "SparkNotes", "Dover Publications" ],
+    "decision": null,
+    "id": null,
+    "response": null
+    },
+  
+  {      
+    
+    "product": "Hamlet (Paperback1)",
+    "inStock": true,
+    "inventory": 30000,
+    "price": 17.49,
+    "publishingDate": "1600-04-23T18:25:43.511Z",
+    "author": { "name": "William Shakespeare_po" },
+    "publishers": [ "Simon & Brown", "SparkNotes", "Dover Publications" ],
+     "decision": null,
+    "id": null,
+    "response": null
+      }
+  
+    ]
+  
+  }
