@@ -18,7 +18,7 @@
 			},
 			"activities": {
 				"04adb87d-cd2e-40ab-bd6c-400c2b197550": {
-					"name": "UserTask1 - Hello56"
+					"name": "UserTask1 - Hello56kkk"
 				},
 				"74bc02f5-7995-44f5-aabe-74c0980a7922": {
 					"name": "ScriptTask1"
@@ -62,7 +62,7 @@
 			"recipientUsers": "${info.startedBy}",
 			"customAttributes": [],
 			"id": "usertask1",
-			"name": "UserTask1 - Hello56"
+			"name": "UserTask1 - Hello56kkk"
 		},
 		"74bc02f5-7995-44f5-aabe-74c0980a7922": {
 			"classDefinition": "com.sap.bpm.wfs.ScriptTask",
